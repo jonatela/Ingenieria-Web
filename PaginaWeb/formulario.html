@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Producto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Ropa</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="formulario.html">Agregar Producto</a></li>
+                <li><a href="preguntas.html">Preguntas frecuentes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Agregar Nuevo Producto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre del Producto:</label>
+            <input type="text" id="nombre" name="nombre" required><br>
+
+            <label for="precio">Precio:</label>
+            <input type="number" id="precio" name="precio" required><br>
+
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" rows="4"></textarea><br>
+
+            <label for="tallas">Tallas Disponibles:</label>
+            <input type="text" id="tallas" name="tallas"><br>
+
+            <input type="submit" value="Agregar Producto">
+        </form>
+    </main>
+
+    <footer>
+        <p>Tienda de Ropa &copy; 2024</p>
+    </footer>
+</body>
+</html>
